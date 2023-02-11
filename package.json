@@ -5,7 +5,7 @@
 	"scripts": {
 		"compile:css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css",
 		"dev": "concurrently \"tsc -w\" \"live-server public\" \"npm:compile:css --watch\"",
-		"build": "concurrently \"tsc\" \"npm:compile:css --watch\""
+		"build": "concurrently \"tsc\" \"npm:compile:css\""
 	},
 	"keywords": [],
 	"author": "",
